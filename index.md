@@ -13,7 +13,7 @@
 </table>
 
 <a href = "http//www.baidu.com" target = "blank">查询地址</a> <br>
-<img src = "1.png/">
+<img src = "1/">
 ## 缸盖
 <table border="0">
   <tr>
