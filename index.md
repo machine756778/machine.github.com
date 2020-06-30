@@ -6,11 +6,7 @@
       <h2>一期</h2>
       <p><b>缸体线</b></p>
          <h2>二期</h2>
-      <p><b>缸体线</b></p>
-     
-    </td>
-    <td width="25%">
-      <img src="/zhengjianzhao.jpg" width="100%">      % 插入证件照代码
-    </td>
+      <p><b>缸体线</b></p> 
+   
   </tr>
 </table>
