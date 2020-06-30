@@ -24,6 +24,7 @@
    
   </tr>
 </table>
+<a href = "http//www.baidu.com" target = "blank">查询地址</a> <br>
 
 ## 曲轴
 <table border="0">
@@ -36,6 +37,7 @@
    
   </tr>
 </table>
+<a href = "http//www.baidu.com" target = "blank">查询地址</a> <br>
 
 ## 装配
 <table border="0">
@@ -48,3 +50,4 @@
    
   </tr>
 </table>
+<a href = "http//www.baidu.com" target = "blank">查询地址</a> <br>
