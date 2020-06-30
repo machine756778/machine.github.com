@@ -1,4 +1,4 @@
-<strong># 欢迎来到青岛发动机工厂</strong>
+<strong> # 欢迎来到青岛发动机工厂</strong>
 
 ## 缸体
 <table border="0">
