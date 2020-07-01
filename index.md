@@ -26,8 +26,7 @@
          <h2>二期</h2>
       <p><b>缸盖线</b></p> 
    
-  </tr>
-</table>
+
 
 <a href = "http//www.baidu.com" target = "blank">查询地址</a> <br>
 <img src = "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1593492529200&di=5adddd7293968e54ec707e91ca143561&imgtype=0&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D1821995687%2C887646659%26fm%3D214%26gp%3D0.jpg"/><br>
@@ -42,8 +41,7 @@
       <p><b>曲轴线</b></p>
          <h2>二期</h2>
       <p><b>曲轴线</b></p> 
-    </tr>
-</table>
+
 
 <a href = "http//www.baidu.com" target = "blank">查询地址</a> <br>
 
@@ -58,8 +56,6 @@
       <p><b>装配线</b></p>
          <h2>二期</h2>
       <p><b>装配线</b></p> 
-     </tr>
-</table>
 
 <a href = "http//www.baidu.com" target = "blank">查询地址</a> <br>
 
