@@ -39,8 +39,7 @@
       <p><b>曲轴线</b></p>
          <h2>二期</h2>
       <p><b>曲轴线</b></p> 
-   
-  </tr>
+    </tr>
 </table>
 
 <a href = "http//www.baidu.com" target = "blank">查询地址</a> <br>
@@ -56,8 +55,7 @@
       <p><b>装配线</b></p>
          <h2>二期</h2>
       <p><b>装配线</b></p> 
-   
-  </tr>
+     </tr>
 </table>
 
 <a href = "http//www.baidu.com" target = "blank">查询地址</a> <br>
