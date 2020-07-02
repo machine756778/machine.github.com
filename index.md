@@ -15,7 +15,7 @@
      
 
 <a href = "http//www.baidu.com" target = "blank">查询地址</a>  <br>
-<img src = "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1593488175679&di=03af8fb286c6f7767ddc12118570d6a7&imgtype=0&src=http%3A%2F%2Ffile.youboy.com%2Fa%2F145%2F57%2F40%2F7%2F942837.jpg"/><br>
+<img src = "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1634963068,1747469511&fm=26&gp=0.jpg"/><br>
 
  <h2> 缸盖</h2>
 <table border="0">
