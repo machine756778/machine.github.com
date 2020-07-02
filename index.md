@@ -29,7 +29,7 @@
 
 
 <a href = "http//www.baidu.com" target = "blank">查询地址</a> <br>
-<img src = "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1593668174386&di=f6dccf71a359eccfab4a6c51e857c5fa&imgtype=0&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3040044467%2C2582481343%26fm%3D214%26gp%3D0.jpg"/><br>
+<img src = "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3040044467,2582481343&fm=26&gp=0.jpg"/><br>
 
 
  <h2> 曲轴</h2>
