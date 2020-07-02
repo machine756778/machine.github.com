@@ -1,3 +1,7 @@
+<style> 
+h1 {text-align:center} 
+</style> 
+
 <strong> <h1> 欢迎来到青岛发动机工厂</h1> </strong> 
 
 
