@@ -21,7 +21,9 @@ h1 {text-align:center}
 <a href = "http//www.baidu.com" target = "blank">查询地址</a>  <br>
 <img src = "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1634963068,1747469511&fm=26&gp=0.jpg"/><br>
 
- <h2 id = "缸盖线"> 缸盖</h2>
+ <h2 id = "缸盖线"> 缸盖</h2>  <br/>
+ 
+ 
 <table border="0">
   <tr>
     <td width="75%">
