@@ -14,14 +14,14 @@ h1 {text-align:center}
       <p><b>缸体线</b></p>
          <h2>二期</h2>
       <p><b>缸体线</b></p> 
-     
+ <a href = "缸盖线" >  缸盖线  </a>    
      
      
 
 <a href = "http//www.baidu.com" target = "blank">查询地址</a>  <br>
 <img src = "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1634963068,1747469511&fm=26&gp=0.jpg"/><br>
 
- <h2> 缸盖</h2>
+ <h2 id = "缸盖线"> 缸盖</h2>
 <table border="0">
   <tr>
     <td width="75%">
@@ -30,7 +30,6 @@ h1 {text-align:center}
          <h2>二期</h2>
       <p><b>缸盖线</b></p> 
    
-
 
 <a href = "http//www.baidu.com" target = "blank">查询地址</a> <br>
 <img src = "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3040044467,2582481343&fm=26&gp=0.jpg"/><br>
