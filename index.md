@@ -24,10 +24,10 @@ h1 {text-align:center}
     <a href = "#装配线"> 装配线 </a>
   各线查询
   
-    <a href = "#装配线查询"> 装配线查询 </a>
-    <a href = "#缸体线查询"> 缸体线查询 </a>
-    <a href = "#曲轴线查询"> 曲轴线查询 </a>
-    <a href = "#缸盖线查询"> 缸盖线查询 </a>
+    <a href = "#装配线查询" > 装配线查询 </a>
+    <a href = "#缸体线查询" > 缸体线查询 </a>
+    <a href = "#曲轴线查询" > 曲轴线查询 </a>
+    <a href = "#缸盖线查询" > 缸盖线查询 </a>
      
 
 <a href = "http//www.baidu.com" target = "blank">查询地址</a>  <br>
@@ -62,7 +62,8 @@ h1 {text-align:center}
       <p><b>曲轴线</b></p> 
 
 
-<a id ="曲轴线查询"  href = "http//www.baidu.com" target = "blank">查询地址</a> <br>
+  <a   href = "http//www.baidu.com" target = "blank"   >查询地址</a> <br>
+   <a id  = "装配线查询" > 装配线查询 </a> <br>
 
 <img src = "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1593491233148&di=f77a8fb541bbc4ae3020ea78c77b43b6&imgtype=0&src=http%3A%2F%2Fpics7.baidu.com%2Ffeed%2Fd62a6059252dd42a0b3bf20ef60b2fb1c9eab81e.jpeg%3Ftoken%3D34d566f263238cc8e95aa0a7dc712c8d%26s%3DD5E6B94475138BC80C7DA913010050C3"/><br>
 
