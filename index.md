@@ -84,7 +84,7 @@ h1 {text-align:center}
 //
 <table>
   <tr>
-   <td>一期<td>
+   <td rowspan>一期<td>
    <td>二期<td>
    <tr>
  <table>
