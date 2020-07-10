@@ -88,7 +88,7 @@ h1 {text-align:center}
    <td colspan>一期 loop 2<td>
    <th>
     
-     <tr>
+   <tr>
    <td rowspan>二期 loop 1<td>
    <td colspan>二期loop 2<td>
    <tr> 
