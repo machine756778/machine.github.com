@@ -34,7 +34,7 @@
              <td>住址</td>
              <td>
                 <select>
-                   <option value='山东' selected="selected">青岛</option>
+                   <option value='山东' selected="selected">山东</option>
                    <option >广西</option>
                    <option>北京</option>
                 </select>省&nbsp;&nbsp;
