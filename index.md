@@ -35,11 +35,11 @@
              <td>
                 <select>
                    <option value='山东' selected="selected">青岛</option>
-                   <option >北京市</option>
-                   <option>山东</option>
+                   <option >广西</option>
+                   <option>北京</option>
                 </select>省&nbsp;&nbsp;
                 <select>
-                   <option>深圳</option>                    <option>北京</option>                   <option>青岛</option>                </select>市br
+                   <option>青岛</option>                    <option>柳州</option>                   <option>北京</option>                </select>市br
             </td>
           </tr>
           <tr>
