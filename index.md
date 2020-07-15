@@ -43,11 +43,11 @@
             </td>
           </tr>
           <tr>
-             <td>爱好</td>
+             <td>特长</td>
              <td>
-                <input type="checkbox" name="sport" checked="checked"/>篮球
-                <input type="checkbox" name="basketball"/>足球
-                <input type="checkbox" name="volleyball"/>看书
+                <input type="checkbox" name="sport" checked="checked"/>装配
+                <input type="checkbox" name="basketball"/>机加工
+                <input type="checkbox" name="volleyball"/>维修
             </td>
           </tr>
           <tr>
