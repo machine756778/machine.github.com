@@ -50,12 +50,12 @@
                 <input type="checkbox" name="volleyball"/>维修
             </td>
           </tr>
-          <tr>
+<!--           <tr>
              <td>备注信息</td>
              <td>
                 <textarea rows="15" cols="50"></textarea>
             </td>
-          </tr>
+          </tr> -->
           <tr>
              <td></td>
              <td>
