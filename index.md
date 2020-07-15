@@ -43,7 +43,7 @@
             </td>
           </tr>
           <tr>
-             <td>特长</td>
+             <td>区域</td>
              <td>
                 <input type="checkbox" name="sport" checked="checked"/>装配
                 <input type="checkbox" name="basketball"/>机加工
