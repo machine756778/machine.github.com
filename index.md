@@ -76,4 +76,7 @@ padding: 6px 68px 0 68px;
 <p><a href="http://keleyi.com/">首页</a> <a href="http://keleyi.com/keleyi/phtml/">特效库</a> <a href="http://keleyi.com/a/bjae/6asac24d.htm">原文</a></p>
 </div>
 </body>
+
+
+
 </html>
