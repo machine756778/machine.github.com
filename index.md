@@ -1,87 +1,79 @@
-
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>商铺订单管理网站</title>
-	<script type="text/javascript" src="/javascripts/jquery.1.12.4.min.js"></script>
-    <style>
-        *all{
-            margin: 0;
-            padding: 0;
-        }
-        div.inner,table{
-            position:absolute;
-        }
-		body{
-			background-image:url(./timg.jpg);
-			background-size:100%;
-		}
-        .outer{
-            height: 100%;    
-        }
-        .inner{
-			border: 5px solid rgba(255,255,255,1);
-		    border-radius: 20px;
-		    width: 370px;
-		    height: 340px;
-		    top: 40%;
-		    left: 76%;
-		    transform: translate(-50%,-50%);
-			box-shadow:11px 11px 11px rgba(50,50,50,1);	///边框阴影
-        }
-        .table{
-            top: 7%;
-		    left: 12%;
-			//border: solid;
-			width: 260px;
-			height: 190px;
-			border-spacing:7px;
-		}
-        .under{
-            position: fixed; 
-            left: 0px; 
-            bottom: 30px; 
-            width: 100%; 
-            text-align:center;
-            font-size: 15px;
-        }
-		.Time{
-			top: 65%;
-			left: 62%;
-            position: fixed; 
-			width: 400px;
-			text-align:right;
-		}
-		.TEXT{
-			height:72%;
-			width: 200px;
-		}
-		a {text-decoration: none}	//去超链接下划线
-    </style>
+<meta charset="utf-8" />
+<title>很漂亮的用户登录界面HTML模板-柯乐义</title><base target="_blank" />
+<style>
+*{
+padding:0px;
+margin:0px;
+}
+a{color:White}
+body{
+font-family:Arial, Helvetica, sans-serif;
+background:url(http://keleyi.com/keleyi/phtml/divcss/21/images/grass.jpg) no-repeat center;
+font-size:13px; 
+}
+img{
+border:0;
+}
+.lg{width:468px; height:468px; margin:100px auto; background:url(http://keleyi.com/keleyi/phtml/divcss/21/images/login_bg.png) no-repeat;}
+.lg_top{ height:200px; width:468px;}
+.lg_main{width:400px; height:180px; margin:0 25px;}
+.lg_m_1{
+width:290px;
+height:100px;
+padding:60px 55px 20px 55px;
+}
+.ur{
+height:37px;
+border:0;
+color:#666;
+width:236px;
+margin:4px 28px;
+background:url(http://keleyi.com/keleyi/phtml/divcss/21/images/user.png) no-repeat;
+padding-left:10px;
+font-size:16pt;
+font-family:Arial, Helvetica, sans-serif;
+}
+.pw{
+height:37px;
+border:0;
+color:#666;
+width:236px;
+margin:4px 28px;
+background:url(http://keleyi.com/keleyi/phtml/divcss/21/images/password.png) no-repeat;
+padding-left:10px;
+font-size:16pt;
+font-family:Arial, Helvetica, sans-serif;
+}
+.bn{width:330px; height:72px; background:url(http://keleyi.com/keleyi/phtml/divcss/21/images/enter.png) no-repeat; border:0; display:block; font-size:18px; color:#FFF; font-family:Arial, Helvetica, sans-serif; font-weight:bolder;}
+.lg_foot{
+height:80px;
+width:330px;
+padding: 6px 68px 0 68px;
+}
+</style>
 </head>
-<body>
-	<div class="outer">
-		<div class="inner">
-			<table class="table">
-				<caption> <h1>订单管理系统</h1> </caption>
-				<tr height="30px">
-					<td><big><b>账&nbsp;&nbsp;号</b></big></td>
-					<td><input type="text" name="username" id="username"class="TEXT"/> </td>
-				</tr>
-				<tr height="30px">
-					<td><big><b>密&nbsp;&nbsp;码</b></big></td>
-					<td><input class="TEXT"type="password" name="password" id="password"/> </td>
-				</tr>
-				<tr height="30px">
-					<td colspan="2" align="right">
-						<input class="TEXT"type='button' onclick = 'check()' value="            登陆系统              "/>
-					</td>
-				</tr>
-				<tr height="20px"><td colspan="2" style="text-align:right;font-size:small"><a href = "">联系我们</a> | <a href = "">帮助中心</a> | <a href = "">其他</a></td></tr>
-			 </table>
-		</div>
-		<div class="under"><span>显示器分辨率要求≥1024*768，请使用Firefox浏览器（<a href="http://www.firefox.com.cn/" target="_blank">官网下载</a>），可以获得最佳显示效果，Chrome浏览器次之，IE浏览器则要求10或以上版本，其他浏览器较慢且有卡顿等现象。</span></div>
-	</div>
+
+<body class="b">
+<div class="lg">
+<form action="#" method="POST">
+<div class="lg_top"></div>
+<div class="lg_main">
+<div class="lg_m_1">
+
+<input name="username" value="hovertree" class="ur" />
+<input name="password" type="password" value="keleyi.com" class="pw" />
+
+</div>
+</div>
+<div class="lg_foot">
+<input type="button" value="点这里登录" class="bn" /></div>
+</form>
+</div>
+<div style="text-align:center;">
+<p><a href="http://keleyi.com/">首页</a> <a href="http://keleyi.com/keleyi/phtml/">特效库</a> <a href="http://keleyi.com/a/bjae/6asac24d.htm">原文</a></p>
+</div>
 </body>
 </html>
