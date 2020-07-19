@@ -1,52 +1,150 @@
-<title>登录</title>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <script type="text/javascript">
-        function val(){
-            var name=window.document.getElementById("user").value;
-            var password=window.document.getElementById("password").value;//获取值
-            if (name == ""||password ==""){
-                window.alert("用户名或密码不能为空!");
-                return false;
-            }
-        
-             if(name!="12345678"||password!="12345678"){//判断用户名密码登录
-                window.alert("用户名或密码错误!");
-                return false;
-            }
-            return true;
-        }
-    </script>
-    <style type="text/css">
-a{text-decoration:none}
-</style>
-</head>
-<body >
-<table border=0 ><tr><th width=2000 height=150 border=1 bgcolor='ccffff'><center><table><th><img src="images/30.jpg" width='100' height='100'></th>
-<th><font size='7' color='ff7517'>图书用户管理系统</th></table></center></th><tr>
-<table style="background-image:url(images/.jpg);background-size: 100%; opacity: 1; filter: alpha(opacity = 30)"><th >
-<table border=0><tr><th width=1500 height=600 border=1><img src="images/4.jpg" height='400' width=400></th><th>
-<form action="form.html" method="post" onsubmit="return val()" target="_blank">
-<table border=0 bgcolor=F0F0F0>
-<tr><th width=12 height=45></th><th colspan=3 width=82 height=45 align='left'>账户登录</th></tr>
-<tr><th width=12 height=20></th><th width=20 height=20><img src="images/7.png" ></th><th width=50 height=20>
-<input type="text" style="height:40px" placeholder="手机号/会员号/邮箱地址" size=40 id="user"></th><th width=12 height=20></th></tr>
-<tr><th colspan=4 width=94 height=20></th></tr>
-<tr><th width=12 height=20></th><th width=20 height=20><img src="images/8.png" ></th><th width=50 height=20>
-<input type="password" style="height:40px" placeholder="📠" id="password" size=40></th><th width=12 height=20></th></tr>
-<tr><th colspan=4 width=94 height=20></th></tr>
-<tr><th width=12 height=20></th>
-<th colspan=2 width=70 height=20 bgcolor=FF5809><input type="submit" 
-    style="background-color:FF5809;height:40px;width:140px;font-size:20px;color:white;border:none" 
-    value="登录" ></th>
-    <th width=12 height=20></th></tr>
-    <tr><th colspan=4 width=94 height=20></th></tr>
-<tr><th width=12 height=20></th><th width=70  height=20 colspan=2><img src="images/9.png" ></th><th width=12 height=20></th></form></tr>
-<tr><th colspan=4 width=94 height=6></th></tr>
-<tr><th width=12 height=40><th colspan=2><table width=310 border=0><tr><th  width=35 height=20 align='left'><font size=2>忘记密码</font></th>
-<th  width=35 height=20 align='right'><font size=2><a href="zhuce.html" target="_blank">免费注册</a></font></th></tr></table></th><th></th></tr>
-<tr><th colspan=4 width=94 height=6></th></tr>
-</table>
+Skip to content
+ 
+Search or jump to…
 
-</th><th width='700'></th></tr></table></th><tr><th bgcolor='f9fa9b' height=120><p>📧联系邮箱：1234@qq.com</p><p>联系地址：枣庄学院</p><p>📞联系电话：178****6451</p></th></table>
-</body>
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@machine756778 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+ 
+pengxiang1998
+/
+login
+0
+12 10
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+login/index/login.html
+ @pengxiang1998
+pengxiang1998 index
+Latest commit e8c2999 on 25 Apr 2019
+ History
+ 1 contributor
+104 lines (87 sloc)  4 KB
+    
+﻿<html>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+    <head>
+
+        <meta charset="utf-8">
+        <title>登录(Login)</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/supersized.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+            <script src="assets/js/html5.js"></script>
+        <![endif]-->
+		 <script type='text/javascript'> 
+        var code ; //在全局定义验证码   
+          
+        function createCode(){ 
+             code = "";    
+             var codeLength = 4;//验证码的长度   
+             var checkCode = document.getElementById("code");    
+             var random = new Array(0,1,2,3,4,5,6,7,8,9,'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R',   
+             'S','T','U','V','W','X','Y','Z');//随机数   
+             for(var i = 0; i < codeLength; i++) {//循环操作   
+                var index = Math.floor(Math.random()*36);//取得随机数的索引（0~35）   
+                code += random[index];//根据索引取得随机数加到code上   
+            }   
+            checkCode.value = code;//把code值赋给验证码   
+        } 
+        //校验验证码   
+        function validate(){
+			
+			var password=document.getElementById("password").value;
+			var username=document.getElementById("username").value;
+			if(username!="pengxiang"){
+				alert("用户名不正确！");
+				return false;
+			}
+			if(username!="123456"){
+				alert("密码不正确！");
+				return false;
+			}
+			
+            var inputCode = document.getElementById("Captcha").value.toUpperCase(); //取得输入的验证码并转化为大写         
+            if(inputCode.length <= 0) { //若输入的验证码长度为0   
+                alert("请输入验证码！"); //则弹出请输入验证码   
+                return false;
+            }else if(inputCode != code ) { //若输入的验证码与产生的验证码不一致时   
+                alert("验证码输入错误！"); //则弹出验证码输入错误   
+                createCode();//刷新验证码   
+                document.getElementById("Captcha").value = "";//清空文本框 
+                return false;
+            }else { //输入正确时   
+                alert("登录成功,正在跳转...");
+                
+            } 
+            return true;
+        } 
+        function agree(){
+            if(document.getElementById('cb').checked){
+            	alert("您已同意服务条款！");return true; }
+            
+         else
+        	 alert("您尚未同意服务条款！");
+			return false;  
+       }   
+        </script> 
+
+    </head>
+
+    <body>
+
+        <div class="page-container">
+            <h1>登录(Login)</h1>
+            <form action="Modest/index.html" method="post">
+                <input type="text" name="username" class="username" placeholder="请输入您的用户名！">
+                <input type="password" name="password" class="password" placeholder="请输入您的用户密码！">
+                <input type="Captcha" class="Captcha" name="Captcha" placeholder="请输入验证码！">
+				<input type="button" id="code" onclick="createCode()" style="height:40px;width:120px" title='点击更换验证码' /> 
+                <button type="submit" class="submit_button">登录</button>
+                <div class="error"><span>+</span></div>
+            </form>
+           
+        </div>
+		
+        <!-- Javascript -->
+        <script src="assets/js/jquery-1.8.2.min.js" ></script>
+        <script src="assets/js/supersized.3.2.7.min.js" ></script>
+        <script src="assets/js/supersized-init.js" ></script>
+        <script src="assets/js/scripts.js" ></script>
+
+    </body>
+<div style="text-align:center;">
+
+</div>
+</html>
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
