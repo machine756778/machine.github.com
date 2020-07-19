@@ -1,41 +1,87 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>商铺订单管理网站</title>
+	<script type="text/javascript" src="/javascripts/jquery.1.12.4.min.js"></script>
+    <style>
+        *all{
+            margin: 0;
+            padding: 0;
+        }
+        div.inner,table{
+            position:absolute;
+        }
+		body{
+			background-image:url(./timg.jpg);
+			background-size:100%;
+		}
+        .outer{
+            height: 100%;    
+        }
+        .inner{
+			border: 5px solid rgba(255,255,255,1);
+		    border-radius: 20px;
+		    width: 370px;
+		    height: 340px;
+		    top: 40%;
+		    left: 76%;
+		    transform: translate(-50%,-50%);
+			box-shadow:11px 11px 11px rgba(50,50,50,1);	///边框阴影
+        }
+        .table{
+            top: 7%;
+		    left: 12%;
+			//border: solid;
+			width: 260px;
+			height: 190px;
+			border-spacing:7px;
+		}
+        .under{
+            position: fixed; 
+            left: 0px; 
+            bottom: 30px; 
+            width: 100%; 
+            text-align:center;
+            font-size: 15px;
+        }
+		.Time{
+			top: 65%;
+			left: 62%;
+            position: fixed; 
+			width: 400px;
+			text-align:right;
+		}
+		.TEXT{
+			height:72%;
+			width: 200px;
+		}
+		a {text-decoration: none}	//去超链接下划线
+    </style>
 </head>
 <body>
-        <div style="width:500px;float: right;margin:0 auto;" >
-         <label for="username" style="font-size:18px" >用户名：</label>
-         <div style="height:35px;width:400px;position:relative;display:inline" >   <!--相关位置--> <!--此处为相关位置与绝对位置联合使用-->
-             <input id="username" type="text" style="height:30px;width:350px;padding-right:50px;">
-             <span style="position:absolute;right:18px;top:2px;background-image:url(user.ico);height:16px;width:16px;display:inline-block;"></span>  <!--绝对位置-->
-         </div>
-         <br/>
-         <br/>
-         <label for="password1" style="font-size:18px" >&nbsp密码：</label>
-         <div style="height:35px;width:400px;position:relative;display:inline" >   <!--相关位置--> <!--此处为相关位置与绝对位置联合使用-->
-             <input id="password1" type="text" style="height:30px;width:350px;padding-right:50px;">
-             <span style="position:absolute;right:16px;top:2px;background-image:url(p.ico);height:16px;width:16px;display:inline-block;"></span>  <!--绝对位置-->
-         </div>
-         <br/>
-         <br/>
-         <label for="verification_code" style="font-size:18px" >验证码：</label>
-         <input id="verification_code" type="text" style="height:30px;width:350px;">
-         <br/>
-         <br/>
-         <div style="width:426px;float: right;">
-             <input type="radio" name="auto_login" value="1"/> 自动登录
-             <a herf="找回密码网址">忘记密码？</a>
-             <a href="http://localhost:63342/jichu/day16/注册.html?_ijt=eb8klk8d781ojsf5e8eb7tjf41">注册</a>
-         </div>
-         <br/>
-         <br/>
-         <div style="width:426px;float: right;">
-             <input type="submit" value="登录" style="height:30px;width:400px;background-color:red;"/>
-         </div>
-     </div>
-
+	<div class="outer">
+		<div class="inner">
+			<table class="table">
+				<caption> <h1>订单管理系统</h1> </caption>
+				<tr height="30px">
+					<td><big><b>账&nbsp;&nbsp;号</b></big></td>
+					<td><input type="text" name="username" id="username"class="TEXT"/> </td>
+				</tr>
+				<tr height="30px">
+					<td><big><b>密&nbsp;&nbsp;码</b></big></td>
+					<td><input class="TEXT"type="password" name="password" id="password"/> </td>
+				</tr>
+				<tr height="30px">
+					<td colspan="2" align="right">
+						<input class="TEXT"type='button' onclick = 'check()' value="            登陆系统              "/>
+					</td>
+				</tr>
+				<tr height="20px"><td colspan="2" style="text-align:right;font-size:small"><a href = "">联系我们</a> | <a href = "">帮助中心</a> | <a href = "">其他</a></td></tr>
+			 </table>
+		</div>
+		<div class="under"><span>显示器分辨率要求≥1024*768，请使用Firefox浏览器（<a href="http://www.firefox.com.cn/" target="_blank">官网下载</a>），可以获得最佳显示效果，Chrome浏览器次之，IE浏览器则要求10或以上版本，其他浏览器较慢且有卡顿等现象。</span></div>
+	</div>
 </body>
 </html>
